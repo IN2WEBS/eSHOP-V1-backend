@@ -1,0 +1,17 @@
+{
+  "name": "eshop-v1-backend",
+  "version": "1.0.0",
+  "description": "eShop backend with Node",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rolandas@IN2WEBS",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  }
+}
